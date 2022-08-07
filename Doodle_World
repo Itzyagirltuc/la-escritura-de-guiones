@@ -1,0 +1,21 @@
+Getgenv().autofarm_settings = {
+    Enabled = true,
+    Kill_all = false, -- bypasses every other kill setting
+    Catch_when_shiny = true,
+    Kill_when_shiny = false,
+    Catch_when_skin = true,
+    Kill_when_skin = false,
+    Catch_when_havent_caught_before = false,
+    Kill_when_havent_caught_before = true,
+    Catch_when_specific_doodle = false,
+    Kill_when_specific_doodle = true,
+    Specific_doodles = { --add a comma after each doodle except for the last one
+         "Glubbie",
+         "Wisp",
+         "Moss",
+         "Mold",
+         "Yagoat",
+         "Leapo",
+         "Glimmew",
+    }
+}
